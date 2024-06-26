@@ -4,7 +4,6 @@
     background-color: var(--primary-color);
 }
 .Header {
-    position: relative;
     width: 90%;
     margin: 0 auto;
     height: 70px;
@@ -21,12 +20,13 @@
     background-color: var(--primary-color);
     text-align: center;
     position: absolute;
-    right: -100%;
+     display: none;
     z-index: 100;
     transition: .5s linear;
  }
  nav.active {
     transition: .5s linear;
+    display: block;
     right: 0;
  }
  nav .close-icon {
@@ -39,7 +39,7 @@
      list-style: none;
      display: flex;
      flex-direction: column;
-     gap: 50px;
+     gap: 100px;
      color: var(--secondary-color);
  }
  ul li a{

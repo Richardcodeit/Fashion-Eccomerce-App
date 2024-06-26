@@ -7,12 +7,10 @@ function Header() {
   const navRef = useRef(null)
   const closeIconRef = useRef(null)
   const body = document.body
-  console.log(body) 
 
 
 function changeColor(){
   body.classList.toggle("dark-color")
-  console.log("i did")
 }
 const openNav = ()=>{
 if(!navRef.current.classList.contains("active")){
@@ -64,7 +62,7 @@ const closeNav = ()=>{
                             </svg>
             </div>
         </nav>
-           
+
     </header>
   </div>
   )

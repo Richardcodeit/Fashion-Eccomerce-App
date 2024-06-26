@@ -15,9 +15,9 @@ function SectionOne() {
            <br />Dolore, ullam enim non exercitationem hic totam suscipit cupiditate quam asperiores facere minus
            <br /> ratione necessitatibus dicta blanditiis accusantium nihil excepturi voluptas? Maiores.
            </p>
-           <a href="FifthSection">
+           {/* <a href="FifthSection">
                SHOP NOW
-           </a>
+           </a> */}
        </div>
        <div className="image">
            <div className="img">

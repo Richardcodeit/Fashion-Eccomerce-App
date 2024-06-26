@@ -16,23 +16,23 @@
     margin-bottom: 100px;
   }
   .image-carousel .container {
-   max-width: 100%;
+    max-width: 500px;
     height: 100%;
     display: flex;
     gap: 20px;
     transform: .5s linear;
   }
   .image-carousel .container .card{
-   width: 100%;
+   max-width: 500px;
    height: 100%;
   }
   .image-carousel .container .card .image {
-    width: 500px;
+    max-width: 500px;
     height: 400px;
     object-fit: contain;
   }
   .image-carousel .container .card .image img {
-    width: 100%;
+    max-width: 500px;
     height: 100%;
   }
   .button .next {
